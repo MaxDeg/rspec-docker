@@ -1,0 +1,2 @@
+{"tags":["app_log"],"message":"this is a test message","hostname":"ipgeoloc0101e1","datacenter":"e1","loglevel":"info","env":"dev"}
+{"tags":["app_log"],"message":"this is a another test message","hostname":"ipgeoloc0101e2","datacenter":"e2","loglevel":"warn","env":"test"}

@@ -1,3 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
-INPUT_LOGS=/app/tests/data/output.log ruby -S bin/rspec
+cp /specs/* /app/tests/spec/
+
+ruby -S gem install bundler
+ruby -S bundle install
+
+INPUT_LOGS=/app/data/output.log ruby -S bin/rspec
